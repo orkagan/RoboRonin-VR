@@ -11,7 +11,8 @@ public class SliceObject : MonoBehaviour
     public VelocityEstimator velocityEstimator;
 
     public Material crossSectionMaterial;
-    public float cutForce = 1000;
+    public float cutForce = 500f;
+    public float velocityThresholdToCut = 5f;
 
     void FixedUpdate()
     {
@@ -26,6 +27,9 @@ public class SliceObject : MonoBehaviour
     public void Slice(GameObject target)
 	{
         Vector3 velocity = velocityEstimator.GetVelocityEstimate();
+        if (velocity.magnitude < velocityThresholdToCut) return;
+        //Debug.Log(velocity.magnitude);
+
         Vector3 planeNormal = Vector3.Cross(endSlicePoint.position - startSlicePoint.position, velocity);
         planeNormal.Normalize();
         
@@ -49,5 +53,6 @@ public class SliceObject : MonoBehaviour
         Rigidbody rb = slicedObject.AddComponent<Rigidbody>();
         rb.AddExplosionForce(cutForce, slicedObject.transform.position, 1);
         //slicedObject.layer = slicableLayer; //idk why this didn't work
+        slicedObject.AddComponent<HotCutCooling>();
 	}
 }

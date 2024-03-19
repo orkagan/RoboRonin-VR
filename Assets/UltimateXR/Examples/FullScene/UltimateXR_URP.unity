@@ -3671,8 +3671,8 @@ MonoBehaviour:
   velocityEstimator: {fileID: 1145549512}
   crossSectionMaterial: {fileID: 2100000, guid: ea9ed55c227777848ad4ac6b3e8720b1,
     type: 2}
-  cutForce: 1000
-  velocityThresholdToCut: 0.1
+  cutForce: 0
+  velocityThresholdToCut: 5
 --- !u!54 &978478964
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7587,7 +7587,7 @@ MonoBehaviour:
   velocityEstimator: {fileID: 588670083}
   crossSectionMaterial: {fileID: 2100000, guid: ea9ed55c227777848ad4ac6b3e8720b1,
     type: 2}
-  cutForce: 1000
+  cutForce: 0
   velocityThresholdToCut: 5
 --- !u!1 &2061266329
 GameObject:

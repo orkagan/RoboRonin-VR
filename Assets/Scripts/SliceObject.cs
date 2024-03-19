@@ -38,10 +38,9 @@ public class SliceObject : MonoBehaviour
 		{
             GameObject upperHull = hull.CreateUpperHull(target, crossSectionMaterial);
             SetupSlicedObject(upperHull);
-            upperHull.layer = target.layer;
+            upperHull.layer = slicableLayer;
             GameObject lowerHull = hull.CreateLowerHull(target, crossSectionMaterial);
             SetupSlicedObject(lowerHull);
-            lowerHull.layer = target.layer;
 		}
         Destroy(target);
 	}
@@ -51,8 +50,9 @@ public class SliceObject : MonoBehaviour
         MeshCollider collider = slicedObject.AddComponent<MeshCollider>();
         collider.convex = true;
         Rigidbody rb = slicedObject.AddComponent<Rigidbody>();
-        rb.AddExplosionForce(cutForce, slicedObject.transform.position, 1);
-        //slicedObject.layer = slicableLayer; //idk why this didn't work
+        //rb.AddExplosionForce(cutForce, slicedObject.transform.position, 1);
+        slicedObject.layer = LayerMask.NameToLayer("Sliceable");
         slicedObject.AddComponent<HotCutCooling>();
-	}
+
+    }
 }

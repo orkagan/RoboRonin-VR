@@ -98,14 +98,14 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _DstBlendAlpha: 0
-    - _Edge_Glow_Strength: 8
+    - _Edge_Glow_Strength: 2
     - _Energy_Noise_Scale: 8
     - _Energy_Noise_Strength: 0
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _Intersection_Strength: 10
+    - _Intersection_Strength: 2
     - _Intersection_Thickness: 0.04
     - _Metallic: 0
     - _OcclusionStrength: 1

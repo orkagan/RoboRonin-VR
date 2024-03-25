@@ -105,8 +105,8 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _Intersection_Strength: 5
-    - _Intersection_Thickness: 0.05
+    - _Intersection_Strength: 10
+    - _Intersection_Thickness: 0.04
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -128,7 +128,7 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Base_Color: {r: 0, g: 0.72313213, b: 1, a: 0.78431374}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Edge_Glow_Thickness: {r: 0.17, g: 0.44, b: 0, a: 0}
+    - _Edge_Glow_Thickness: {r: 0.1, g: 0.03, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Emission_Color: {r: 0, g: 2.9960787, b: 2.9960787, a: 0}
     - _Energy_Noise_Speed: {r: 0.4, g: -0.4, b: 0, a: 0}

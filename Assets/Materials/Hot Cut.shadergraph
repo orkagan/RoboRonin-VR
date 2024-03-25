@@ -17,6 +17,9 @@
         },
         {
             "m_Id": "410edd7873a64b49ad14dd5f439f64b7"
+        },
+        {
+            "m_Id": "3f027d45662f43cdae57191f348aac08"
         }
     ],
     "m_Keywords": [],
@@ -417,10 +420,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -437.3334045410156,
-            "y": 406.0,
-            "width": 209.33343505859376,
-            "height": 364.0
+            "x": -437.33331298828127,
+            "y": 514.0,
+            "width": 209.3333282470703,
+            "height": 363.99993896484377
         }
     },
     "m_Slots": [
@@ -793,6 +796,99 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.GradientShaderProperty",
+    "m_ObjectId": "3f027d45662f43cdae57191f348aac08",
+    "m_Guid": {
+        "m_GuidSerialized": "2d0993e3-0798-42db-b872-750fa6c1a560"
+    },
+    "m_Name": "Emission Colors",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "Emission Colors",
+    "m_DefaultReferenceName": "_Emission_Colors",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": false,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": {
+        "serializedVersion": "2",
+        "key0": {
+            "r": 1.0,
+            "g": 0.0,
+            "b": 0.07994699478149414,
+            "a": 1.0
+        },
+        "key1": {
+            "r": 1.0,
+            "g": 0.4326077103614807,
+            "b": 0.0,
+            "a": 1.0
+        },
+        "key2": {
+            "r": 1.0,
+            "g": 0.9575587511062622,
+            "b": 0.0,
+            "a": 0.0
+        },
+        "key3": {
+            "r": 0.2320554256439209,
+            "g": 1.0,
+            "b": 0.0,
+            "a": 0.0
+        },
+        "key4": {
+            "r": 0.0,
+            "g": 0.8518099784851074,
+            "b": 1.0,
+            "a": 0.0
+        },
+        "key5": {
+            "r": 0.0,
+            "g": 0.28122472763061526,
+            "b": 1.0,
+            "a": 0.0
+        },
+        "key6": {
+            "r": 0.6431372761726379,
+            "g": 0.0,
+            "b": 1.0,
+            "a": 0.0
+        },
+        "key7": {
+            "r": 0.6438741683959961,
+            "g": 0.0,
+            "b": 1.0,
+            "a": 0.0
+        },
+        "ctime0": 0,
+        "ctime1": 13662,
+        "ctime2": 23588,
+        "ctime3": 32661,
+        "ctime4": 41947,
+        "ctime5": 50165,
+        "ctime6": 57743,
+        "ctime7": 65535,
+        "atime0": 0,
+        "atime1": 65535,
+        "atime2": 0,
+        "atime3": 0,
+        "atime4": 0,
+        "atime5": 0,
+        "atime6": 0,
+        "atime7": 0,
+        "m_Mode": 0,
+        "m_ColorSpace": -1,
+        "m_NumColorKeys": 8,
+        "m_NumAlphaKeys": 2
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.BlockNode",
     "m_ObjectId": "409320558cf549adb262a5531d17968d",
     "m_Group": {
@@ -917,8 +1013,8 @@
         "m_Position": {
             "serializedVersion": "2",
             "x": -646.6666259765625,
-            "y": 466.6667175292969,
-            "width": 178.66665649414063,
+            "y": 574.6666259765625,
+            "width": 178.66668701171876,
             "height": 35.99993896484375
         }
     },
@@ -1025,10 +1121,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -652.0,
-            "y": 430.66668701171877,
+            "x": -651.9999389648438,
+            "y": 538.6666259765625,
             "width": 184.00003051757813,
-            "height": 36.000030517578128
+            "height": 35.99993896484375
         }
     },
     "m_Slots": [
@@ -1092,6 +1188,9 @@
             "m_Id": "ff52b9fc8b054b7fa354b5e857a353ac"
         },
         {
+            "m_Id": "3f027d45662f43cdae57191f348aac08"
+        },
+        {
             "m_Id": "fc1f4726ab9342e5a5e21a12e6fa6b18"
         },
         {
@@ -1112,10 +1211,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -671.3333129882813,
-            "y": 502.6666564941406,
-            "width": 209.33331298828126,
-            "height": 327.9999694824219
+            "x": -671.333251953125,
+            "y": 610.6665649414063,
+            "width": 209.33328247070313,
+            "height": 328.0
         }
     },
     "m_Slots": [

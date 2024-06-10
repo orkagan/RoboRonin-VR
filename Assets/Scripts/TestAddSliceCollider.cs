@@ -9,15 +9,7 @@ public class TestAddSliceCollider : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log($"TestScriptRunning {transform}");
-		/*foreach (Transform limb in transform)
-		{
-            Debug.Log($"Limb: {limb}");
-            if (limb.gameObject.GetComponent<Collider>() != null)
-			{
-
-			}
-		}*/
+        //Debug.Log($"TestScriptRunning {transform}");
 		foreach (Collider col in GetComponentsInChildren<Collider>())
 		{
             Destroy(col);
@@ -31,12 +23,5 @@ public class TestAddSliceCollider : MonoBehaviour
             mc.gameObject.layer = slicableLayer;
             mc.tag = "Limb";
 		}
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

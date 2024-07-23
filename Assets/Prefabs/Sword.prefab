@@ -525,7 +525,6 @@ GameObject:
   - component: {fileID: 4775395886837157316}
   - component: {fileID: 3190208323562826351}
   - component: {fileID: 3690069938519350465}
-  - component: {fileID: 4924978036277911719}
   m_Layer: 0
   m_Name: Sword
   m_TagString: Grabbable
@@ -726,24 +725,6 @@ MonoBehaviour:
     type: 2}
   cutForce: 0
   velocityThresholdToCut: 5
---- !u!114 &4924978036277911719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5357755848362792259}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e6623a4d0fc2064681eadee5dee7d6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _tip: {fileID: 3153036721404303187}
-  _base: {fileID: 8728636723874556331}
-  _meshParent: {fileID: 2917556808777899484}
-  _trailFrameLength: 100
-  _colour: {r: 1, g: 0, b: 0, a: 1}
-  _forceAppliedToCut: 3
 --- !u!1 &6222873342234299670
 GameObject:
   m_ObjectHideFlags: 0
